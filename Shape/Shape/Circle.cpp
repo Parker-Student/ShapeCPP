@@ -19,11 +19,11 @@ void Circle::SetRadius(double radius)
 double Circle::GetArea()
 {
 	//double A = GetPerimeter() / 2;
-	return sqrt(PI * m_radius * m_radius);
+	return (PI * m_radius * m_radius);
 }
 
 
 double Circle::GetPerimeter()
 {
-	return 2 * PI * m_radius;
+	return (2 * PI * m_radius);
 }
